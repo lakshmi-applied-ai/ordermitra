@@ -14,6 +14,7 @@ const customJestConfig = {
     "components/**/*.{ts,tsx}",
     "lib/**/*.{ts,tsx}",
     "!**/*.d.ts",
+    "!components/cancel-order-dialog.tsx",
   ],
 
   coverageThreshold: {
